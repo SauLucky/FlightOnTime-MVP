@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 from datetime import datetime
 
-# Cargar el modelo (sube el archivo .joblib al mismo lugar que este app.py)
+# Cargar el modelo (sube el archivo .joblib al mismo lugar vzvxque este app.py)
 model = joblib.load('modelo_flightontime_xgboost_final.joblib')
 
 st.title("✈️ FlightOnTime - Predicción de Retrasos")
